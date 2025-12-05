@@ -1,14 +1,10 @@
-// src/utils/extractAdsFromGraphQL.ts
 export interface AdData {
-  id: string; // ad_archive_id
-  page_id: string; // advertiser/page
+  id: string; 
+  page_id: string; 
   [key: string]: any;
 }
 
-/**
- * Extracts ads from Meta Ads Library GraphQL response.
- * Optional filterPageId limits results to one page_id (used in incrementalSync).
- */
+// Extracts ads from Meta Ads Library GraphQL response.
 export function extractAdsFromGraphQL(
   json: any,
   filterPageId?: string
