@@ -32,8 +32,8 @@ Initial sync:
 ```
 
 node dist/index.js sync <"facebook ads library url"> [addsNumber]
-e.g
-node dist/index.js sync "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=282592881929497" 100
+
+[node dist/index.js sync "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=282592881929497" 100]
 
 ```
 
@@ -42,8 +42,7 @@ Incremental sync for a page:
 ```
 
 node dist/index.js incremental <"page_id">
-e.g
-node dist/index.js incremental 282592881929497
+[node dist/index.js incremental 282592881929497]
 
 ```
 
